@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>tailwind</title>
+</head>
+<body class="w-[100%]">
+    <h1 class="text-[4rem] text-[#70E870] font-bold text-center">
+        HELLO WORLD
+    </h1>
+    <div class="flex flex-col justify-center items-center w-full max-w-[5rem] bg-yellow-500 mt-2 m-auto px-3">
+<h1 class="text-md">You are good</h1>
+    </div>
+    <div class="bg-orange-500 py-1 px-6 text-white rounded-[3rem] w-full max-w-[10rem] m-auto mt-10">
+        Party jollof Rice
+    </div>
+    <button class="bg-red-600 px-4 py-2 font-bold text-sm rounded-[3rem] m-auto mt-10 flex flex-col justify-center">
+        Stop! No Credit
+    </button>
+    <h1 class="text-3xl font-extrabold text-center mt-10">Welcome to lagos</h1>
+    <nav class="flex justify-between items-center bg-green-700 p-4 text-white mt-5 mx-5">
+        <div>Logo</div>
+        <div class="flex gap-5">
+            <div>Menu</div>
+            <div>Contact</div>
+        </div>
+    </nav>
+
+    <div class="grid grid-cols-1 m-10 text-red-500 md:grid-cols-3 gap-4 sm:grid-cols-6 gap-4">
+    <div class="bg-gray-300 rounded-tl-[10rem] rounded-tr-[10rem] border-t-2 border-t-green-500 border-b-2 border-b-yellow-500 p-4">Card 1</div>
+    <div class="bg-gray-300 rounded-bl-[10rem] rounded-br-[10rem] border-b-2 border-b-green-500 border-t-2 border-t-yellow-500 p-4">Card 2</div>
+    <div class="bg-gray-300 rounded-tl-[10rem] rounded-tr-[10rem] border-t-2 border-t-green-500 border-b-2 border-b-yellow-500 p-4">Card 3</div>
+    <div class="bg-gray-300 rounded-bl-[10rem] rounded-br-[10rem] border-b-2 border-b-green-500 border-t-2 border-t-yellow-500 p-4">Card 4</div>
+    <div class="bg-gray-300 rounded-tl-[10rem] rounded-tr-[10rem] border-t-2 border-t-green-500 border-b-2 border-b-yellow-500 p-4">Card 5</div>
+    <div class="bg-gray-300 rounded-bl-[10rem] rounded-br-[10rem] border-b-2 border-b-green-500 border-t-2 border-t-yellow-500 p-4">Card 6</div>
+</div>
+
+<div class="grid grid-cols-3 gap-2 lg:grid-cols-3 gap-2 md:grid-cols-2 gap-2 sm:grid-cols-1 gap-2 ">
+     <div>
+        <img src="./Image/stephen-1.jpg" alt="" class="object-cover w-full max-w-[20rem] h-auto border-b-5 border-b-green-500 rounded-[4rem] rounded-tr-[5rem] rounded-bl-[5rem]">
+        <h4>Boyinbode Ebenezer <br>Technical Lead – Software Engineer</h4>
+        </div>
+    
+     <div>
+        <img src="./Image/ojo.jpeg" alt="" class="object-cover w-full max-w-[25rem] h-auto border-b-5 border-b-green-500 rounded-[4rem]">
+        <h4>Oluweseun Ojo <br>Team lead – Branding & Design</h4>
+        
+</div>
+    
+    <div>
+        <img src="./Image/oluwatosin.jpeg" alt="" class="object-cover w-full max-w-[25rem] h-auto border-b-5 border-b-green-500 rounded-[4rem]">
+        <h4>Olarenwaju Tosin <br>Head of Public Relations (PR)</h4>
+     </div>
+     </div>
+     
+    <!-- create a contact me card that has a grey background, rounded corners, a large bold name, and a blue Message button -->
+     <div class="bg-gray-500 mt-10 p-6 max-w-sm m-auto text-center rounded-[2rem]">
+        <h2 class="text-2xl font-bold mb-4">contact me</h2>
+        <button class="bg-blue-500 text-white px-4 py-2 rounded-full font-semibold">Message</button>
+     </div>
+     <div class="m-20 hidden md:block">This only shows on laptops{office}</div>
+
+     <div class="bg-blue-200 md:bg-green-200">red on phone, blue on tablet, green on laptop, yellow on desktop</div>
+
+     <button class="m-10 py-2 px-10 bg-black text-white rounded-tl-[3rem] rounded-br-[3rem] border-t-2 border-t-yellow-500
+     border-b-2 border-b-blue-500 shadow-lg hover:bg-sky-500 hover:scale-110 transition duration-500">
+    Hover to see Magic</button>
+
+    <input class="m-10 border-2 border-gray-300 py-2 px-6
+    rounded-full w-full focus:outline-none focus:border-green-500"
+    placeholder="Enter BVN"
+    >
+
+     <div class=" bg-blue-200 m-auto max-w-[40rem] items-center text-center">
+        <input class="m-10 border-2 border-gray-300 py-2 px-6
+    rounded-full w-full max-w-[20rem] focus:outline-none focus:border-green-500"
+    placeholder="Enter Name"
+    >
+     <input type="email" class="m-10 border-2 border-gray-300 py-2 px-6
+    rounded-full w-full max-w-[20rem] focus:outline-none focus:border-green-500"
+    placeholder="Enter Email"
+    >
+     <input type="text" class="m-10 border-2 border-gray-300 py-2 px-6
+    rounded-full w-full max-w-[20rem] focus:outline-none focus:border-green-500"
+    placeholder="Enter Password"
+    >
+    <button class="m-10 py-2 px-10 bg-black text-white rounded-tl-[3rem] rounded-br-[3rem] border-t-2 border-t-yellow-500
+     border-b-2 border-b-blue-500 shadow-lg hover:bg-sky-500 hover:scale-110 transition duration-500 max-w-[20rem]">
+    Hover to see Magic</button>
+     </div>
+
+</body>
+</html>
